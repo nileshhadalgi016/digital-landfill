@@ -29,6 +29,3 @@ A raw pre-trained model just predicts the next word. It doesn't know how to be h
 Model weights are normally stored as 16-bit floating point numbers, which takes a lot of memory. Quantization compresses those weights down to 8-bit or even 4-bit integers. You lose a small amount of precision, but you cut VRAM usage massively, which is why you can run a 7B or even 70B parameter model on a regular laptop or a single GPU instead of a data center rack.
 
 ![Quantization](6_quantization.png)
-
-## Outro & CTA
-Follow for Part 2. Comment AI and I'll send you the full list.
